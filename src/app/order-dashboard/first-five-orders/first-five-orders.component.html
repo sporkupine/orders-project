@@ -1,5 +1,7 @@
 <ng-container *ngFor="let o of orderNumber">
-  <div *ngIf="orderNumber.index <= 4">
+  <div *ngIf="orderNumber.index<=4">
+    <!-- struggling with these ngIf statements, should I be putting the logic somewhere else?
+    the comparison tags (< and >) seem to be read as opening/closing tags within the HTML and it's throwing the whole thing off -->
     Order #{{o}}
   </div>
 </ng-container>
