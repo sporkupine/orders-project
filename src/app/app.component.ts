@@ -6,5 +6,15 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'orders-project';
+
+  onIntervalFired(orderNumber: number) {
+    // if(orderNumber <= 5) {
+    //   this.firstFiveOrders.push(orderNumber)
+    // }else{
+    //   this.allOtherOrders.push(orderNumber)
+    // }
+
+  }
+
+
 }
